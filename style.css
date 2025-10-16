@@ -12,6 +12,7 @@ body {
   padding-left: 150px;
   padding-right: 150px;
   padding-bottom: 100px;
+  padding-top: 20px;
 }
 
 .header-top {
@@ -22,4 +23,27 @@ body {
 .header-bottom {
   display: flex;
   border: 1px solid cyan;
+}
+
+.logo {
+  color: #f9faf8;
+  font-size: 24px;
+  font-weight: 900;
+  /* border: 1px solid gold; */
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+  margin-left: auto;
+  display: flex;
+  gap: 20px;
+  /* border: 1px solid gold;*/
+}
+
+a {
+  color: #e5e7eb;
+  font-size: 18px;
+  text-decoration: none;
 }
