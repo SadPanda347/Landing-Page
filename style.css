@@ -1,6 +1,7 @@
 body {
   margin: 0px;
-  /* height: 100vh; */  /*Might not need */
+  /* height: 100vh; */
+  /*Might not need */
   font-family: Roboto;
 }
 
@@ -9,15 +10,18 @@ body {
   color: #f9faf8;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   padding-left: 150px;
   padding-right: 150px;
   padding-bottom: 100px;
   padding-top: 20px;
+  height: 300px;
+
 }
 
 .header-top {
   display: flex;
-  border: 1px solid cyan;
+  /* border: 1px solid cyan; */
 }
 
 .header-bottom {
@@ -26,7 +30,6 @@ body {
 }
 
 .logo {
-  color: #f9faf8;
   font-size: 24px;
   font-weight: 900;
   /* border: 1px solid gold; */
@@ -43,7 +46,36 @@ ul {
 }
 
 a {
+  text-decoration: none;
+}
+
+.header-description {
+  border: 1px solid gold;
+}
+
+.header-image {
+  border: 1px solid gold;
+}
+
+h1 {
+  margin: 0px;
+  font-size: 48px;
+  font-weight: 900;
+  /* border: 1px solid red; */
+}
+
+p {
+  margin: 0px;
+}
+
+.header-description p,
+a {
   color: #e5e7eb;
   font-size: 18px;
-  text-decoration: none;
+}
+
+.header-signup-button {
+  background: #3882f6;
+  color: #f9faf8;
+  border-radius: 5px;
 }
