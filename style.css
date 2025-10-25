@@ -136,17 +136,40 @@ a {
 .content-image {
   border: 3px solid #3882f6;
   border-radius: 10px;
-  width: 150px;
-  height: 150px;
+  width: 175px;
+  height: 175px;
   flex-shrink: 0;
 }
 
 .caption {
   color: #4b4b4b;
-  width: 150px;
+  width: 175px;
+  font-size: 18px;
   text-align: center;
 }
 
 .quote {
+  display: flex;
+  flex-direction: column;
   background: #e5e7eb;
+  padding-top: 100px;
+  padding-bottom: 75px;
+}
+
+.quote-text {
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+  width: 775px;
+  align-self: center;
+  border: 1px solid blue;
+}
+
+.quote-author {
+  font-size: 18px;
+  font-weight: 600;
+  width: 760px;
+  border: 1px solid green;
+  align-self: flex-end;
 }
