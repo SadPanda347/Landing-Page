@@ -106,6 +106,7 @@ a {
   background: #3882f6;
   color: #f9faf8;
   font-weight: bold;
+  font-size: 18px;
   border-radius: 7px;
   padding: 8px 25px;
 }
@@ -200,9 +201,18 @@ a {
 
 .call-to-action-text h3 {
   font-weight: 600;
+  font-size: 22px;
   margin: 0;
 }
 
 .call-to-action-text {
   color: #f9faf8;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  background-color: #1f2937;
+  color: #f9faf8;
+  padding: 30px 0px;
 }
