@@ -11,8 +11,8 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding-left: 400px;
-  padding-right: 400px;
+  padding-left: 450px;
+  padding-right: 450px;
   padding-bottom: 100px;
   padding-top: 20px;
   height: 400px;
@@ -112,6 +112,7 @@ a {
   align-items: center;
   padding-top: 50px;
   padding-bottom: 100px;
+  gap: 50px;
 }
 
 .main-content h2 {
@@ -123,18 +124,27 @@ a {
 
 .list-of-images {
   display: flex;
+  gap: 50px;
 }
 
 .captioned-image {
   display: flex;
   flex-direction: column;
+  gap: 5px;
 }
 
-.image {
-  border: 5px solid #3882f6;
+.content-image {
+  border: 3px solid #3882f6;
+  border-radius: 10px;
   width: 150px;
   height: 150px;
   flex-shrink: 0;
+}
+
+.caption {
+  color: #4b4b4b;
+  width: 150px;
+  text-align: center;
 }
 
 .quote {
